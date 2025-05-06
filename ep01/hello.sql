@@ -1,9 +1,12 @@
 -- Bebes acima de 1 foto
 -- ou perfumaria acima de 5
 
-SELECT t1.product_id, t1.product_photos_qty, t1.product_category_name 
+SELECT
+    t1.product_id,
+    t1.product_photos_qty,
+    t1.product_category_name
 
-FROM tb_products as t1
+FROM tb_products AS t1
 
-WHERE ( product_category_name = 'bebes' and product_photos_qty > 2)
-or (t1.product_category_name = 'perfumaria' and t1.product_photos_qty > 5) 
+WHERE( product_category_name = 'bebes' AND product_photos_qty > 2)
+    OR (t1.product_category_name = 'perfumaria' AND t1.product_photos_qty > 5)
