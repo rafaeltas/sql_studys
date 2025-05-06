@@ -4,3 +4,4 @@
 -- Ex4: Quantos produtos de 'beleza_saude' com menos de 1 litro?
 
 -- PRAGMA table_info(tb_customers) mostra as informações da tabela
+ E
