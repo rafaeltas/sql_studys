@@ -1,5 +1,16 @@
--- Ex3:w Crie uma coluna nova que contenha a informação de volume em m3
+-- Ex3: 
+-- Crie uma coluna nova que contenha a informação de volume em m3
 
-select (product_width_cm * product_height_cm * product_length_cm) / 100
-    as 'volume m3'
-from "tb_products"
+SELECT
+    product_id,
+    product_width_cm * product_height_cm * product_length_cm / 100000 AS 'product_volume_m3',
+    product_category_name,
+    product_name_lenght,
+    product_description_lenght,
+    product_photos_qty,
+    product_weight_g,
+    product_length_cm,
+    product_height_cm,
+    product_width_cm
+
+FROM "tb_products"
