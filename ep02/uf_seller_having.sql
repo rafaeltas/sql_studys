@@ -11,8 +11,9 @@ FROM tb_sellers
 WHERE seller_state IN ('SP', 'RJ', 'PR')
 
 -- ANTES DA OPERAÇÃO DE AGREGAÇÃO ou AGRUPAMENTO
+-- Agregação
 GROUP BY seller_state
--- ANTES DA OPERAÇÃO DE AGREGAÇÃO ou AGRUPAMENTO
+-- Depois DA OPERAÇÃO DE AGREGAÇÃO ou AGRUPAMENTO
 
 -- Campo de agregação
 -- Having sempre depois do "GROUP BY"
