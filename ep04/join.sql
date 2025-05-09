@@ -3,10 +3,10 @@
 -- em unidade e em pedidos?
 
 SELECT
+    t2.product_category_name,
     t1.order_id,
     t1.order_item_id,
     t1.product_id,
-    t2.product_category_name,
     t1.price
 
 FROM tb_order_items AS t1
