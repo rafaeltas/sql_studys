@@ -3,7 +3,7 @@
 -- Considere a base completa, com apenas pedidos entregues
 SELECT
     t3.customer_state AS 'estado',
-    SUM(t2.payment_value) AS 'receita_por_estado'
+    SUM(t2.payment_value) AS 'receita'
 
 FROM tb_orders AS t1
 
