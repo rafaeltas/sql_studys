@@ -1,7 +1,7 @@
 No SQL, os comandos e palavras-chave da linguagem podem ser classificados de diferentes formas, dependendo do seu papel na instrução. Vamos organizar isso de forma clara para você:
 ✅ Classificação básica dos elementos da sintaxe SQL
 
-1. Comandos (ou Instruções SQL)
+1. **Comandos**(ou Instruções SQL)
 
 São as palavras principais que definem o tipo de operação que será feita:
 
